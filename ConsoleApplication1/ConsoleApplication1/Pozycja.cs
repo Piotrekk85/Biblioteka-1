@@ -8,10 +8,10 @@ namespace ConsoleApplication1
 {
     abstract class Pozycja
     {
-        public string tytul;
-        public int id;
-        public string wydawnictwo;
-        public int rokWydania;
+        protected string tytul;
+        protected int id;
+        protected string wydawnictwo;
+        protected int rokWydania;
 
         //konstruktor nie jest abstrakcyjny i nie potrzebuje slowa void
         public Pozycja(string tytul, int id, string wydawnictwo, int rokWydania)
